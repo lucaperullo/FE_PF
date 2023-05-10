@@ -1,0 +1,45 @@
+{
+  "name": "vite-react-chakra-starter",
+  "version": "0.1.0",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix && yarn format",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write src",
+    "up": "yarn upgrade-interactive",
+    "up-latest": "yarn up --latest",
+    "release": "standard-version",
+    "push-release": "git push --follow-tags origin main"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/plus-jakarta-sans": "^4.5.10",
+    "@lottiefiles/react-lottie-player": "^3.4.9",
+    "@types/swiper": "^6.0.0",
+    "framer-motion": "^6.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^6.4.2",
+    "swiper": "^8.4.4",
+    "use-onclickoutside": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "@types/react": "^18.0.23",
+    "@types/react-dom": "^18.0.7",
+    "@types/react-helmet": "^6.1.5",
+    "@vitejs/plugin-react": "^2.2.0",
+    "standard-version": "^9.5.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.4"
+  }
+}
